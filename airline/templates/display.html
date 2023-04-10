@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flight details</title>
+</head>
+<body>
+
+<div class="container">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>flightNo</th>
+		<th>date</th>
+		<th>source</th>
+		<th>destination</th>
+		<th>capacity</th>
+          <th>cost</th>
+      </tr>
+    </thead>
+    <tbody>
+	{% for fts in ft %}
+      <tr>
+        <td>{{fts.flightNo}}</td>
+        <td>{{fts.date}}</td>
+		<td>{{fts.source}}</td>
+		<td>{{fts.destination}}</td>
+		<td>{{fts.capacity}}</td>
+        <td>{{fts.cost}}</td>
+      </tr>
+	  {% endfor %}
+	</tbody>
+</table>
+</div>
+<br>
+<br>
+{% for fts in ft %}
+
+{{fts.flightNo}},{{fts.date}},{{fts.source}}, {{fts.destination}}, {{fts.capacity}}, {{fts.cost}}
+<br>
+{% endfor %}
+</body>
+</html>

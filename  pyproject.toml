@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "airlineReservationSystem.settings"
+filterwarnings = [
+    "ignore::UserWarning",
+]
