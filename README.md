@@ -12,12 +12,9 @@ StarLine Airways has several reservation offices in each city where the flights 
 **The Project should include the below functionality:**
 
  customers module - Book, Print and Cancel Tickets online
- 
       _customer Module should include register information to book the ticket, Print ticket should have the scope to retrieve the passenger details from the database. Cancel Ticket should have the scope to cancel booked ticket by specifying a proper reason for cancellation. Cancelled details of passenger should be removed from the database too._
   
-  
 Admin module - Add & view Customers, Add & view flights, Add and view bookings
-
       _Admin Module should enable admin to add and view customer details, Add and View Flight details, add and view bookings._ 
    
 
