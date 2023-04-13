@@ -117,7 +117,7 @@ In this project you need to implement:
 
        Clone the Repository / open through VSCODE IDE.
 
-       Open stockmanagement.py File to complete code.
+       Open airline - > airlineImplimentation.py , models.py File to complete code.
 
        Solve the Problem Statements through code as detailed in Step 3 below.
 
